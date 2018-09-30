@@ -1,6 +1,6 @@
 import unittest # Importing the unittest module
 from userAccounts import UserAccounts
-from userAccounts import SocialAccounts
+# from socialAccounts import userAccounts
 
 class TestUserAccounts(unittest.TestCase):
     def setUp(self):
@@ -15,6 +15,15 @@ class TestUserAccounts(unittest.TestCase):
         '''
         self.assertEqual(self.new_user.account_name, "phoebe")
         self.assertEqual(self.new_user.account_password, "1998")
+        def test_save_account_user(self):
+            '''
+            test_save_multiple_contact to check if we can save multiple account
+            objects to our user_list
+            '''
+            self.new_contact.save_user()
+            # test_contact = user("name","password) # new contact
+            test_contact.save_user()
+            self.assertEqual(len(User.user_list),2)
 
 
     def test_confirm_app_user(self):

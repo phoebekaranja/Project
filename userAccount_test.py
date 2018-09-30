@@ -1,6 +1,6 @@
 import unittest # Importing the unittest module
 from userAccounts import UserAccounts
-from socialAccounts import SocialAccounts
+from userAccounts import SocialAccounts
 
 class TestUserAccounts(unittest.TestCase):
     def setUp(self):

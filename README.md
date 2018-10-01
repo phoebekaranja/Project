@@ -6,11 +6,8 @@
 
 
 
-#### By Phoebe Karanja
+#### Author:Phoebe Karanja
 
-
-
-#### 24-Aug-2018
 
 
 

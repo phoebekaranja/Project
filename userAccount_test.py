@@ -3,6 +3,32 @@ from userAccounts import UserAccounts
 # from socialAccounts import userAccounts
 
 class TestUserAccounts(unittest.TestCase):
+    # setup and class creation up here
+    def tearDown(self):
+            '''
+            tearDown method that does clean up after each test case has run.
+            '''
+            accounts.accounts_list = []
+
+# other test cases here
+    def test_save_multiple_accounts(self):
+            '''
+            test_save_multiple_accounts to check if we can save multiple contact
+            objects to our accounts_list
+            '''
+            self.new_contact.save_account()
+            test_account = account("Test","account")
+            test_contact.saveaccount()
+            self.assertEqual(len(user.account_list),2)
+            # More tests above
+    def test_delete_user(self):
+            '''
+            test_delete_user to test if we can remove an account from our user list
+            '''
+            self.new_user.save_account()
+            test_account = User("Test","account") # new user
+            test_account.save_user()
+
     def setUp(self):
         '''
         Function to help create user a/c details before each test

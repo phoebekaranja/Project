@@ -37,7 +37,7 @@ You will need to:
 
 ### Installing
 
--   Go to my Github
+-   Go to my link on Github https://github.com/phoebekaranja/Project.git
 
 -   Search for my name then navigate to my project name.
 
